@@ -1,0 +1,29 @@
+{
+  "name": "geo-match-frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "build:docs": "vite build --outDir docs --emptyOutDir"
+  },
+  "dependencies": {
+    "@amap/amap-jsapi-loader": "^1.0.1",
+    "@element-plus/icons-vue": "^2.3.2",
+    "@turf/turf": "^7.3.5",
+    "axios": "^1.18.1",
+    "dayjs": "^1.11.21",
+    "element-plus": "^2.14.3",
+    "fuse.js": "^7.4.2",
+    "iconv-lite": "^0.7.3",
+    "papaparse": "^5.5.4",
+    "pinia": "^3.0.4",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.3",
+    "vite": "^6.3.5"
+  }
+}
